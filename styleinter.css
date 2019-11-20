@@ -1,0 +1,127 @@
+/* Interview */
+* {
+	box-sizing: border-box;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: georgia,;
+	font-weight: bold;
+	line-height: 1.25;
+	margin: 0;
+	padding: 0;
+	background-image: url(https://www.gannett-cdn.com/-mm-/8f34608b555ec32dd768545f79953f0d1ac02edc/c=1-0-1022-768/local/-/media/2016/12/31/Treasure%20Coast/TreasureCoast/636187854081482016-motv-x.jpg?width=534&height=401&fit=crop);
+	background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+	
+
+}
+header {
+	padding: 0.25em;
+	margin: 0 auto;
+}
+main {
+	padding: 2em 0.25em;
+	perspective: 100em;
+  perspective-origin: top;
+}
+section {
+	max-width: 40em;
+	margin: 0 auto;
+	padding: 1em 0;
+	transition: all 0.5s ease;
+	filter: blur(3px)
+}
+section:nth-child(1) {
+	transform: rotateY(45deg) rotateX(15deg) scale(0.75) translateX(-15em);
+	opacity: 0;
+}
+section:nth-child(2) {
+	transform: rotateY(45deg) rotateX(15deg) scale(0.75) translateX(-15em);
+	opacity: 0;
+}
+section:nth-child(3) {
+	transform: rotateY(45deg) rotateX(15deg) scale(0.75) translateX(-15em);
+	opacity: 0;
+}
+section:nth-child(4) {
+	transform: rotateY(45deg) rotateX(15deg) scale(0.75) translateX(-15em);
+	opacity: 0;
+}
+section:nth-child(5) {
+	transform: rotateY(45deg) rotateX(15deg) scale(0.75) translateX(-15em);
+	opacity: 0;
+}
+section:nth-child(6) {
+	transform: rotateY(45deg) rotateX(15deg) scale(0.75) translateX(-15em);
+	opacity: 0;
+}
+section:nth-child(7) {
+	transform: rotateY(45deg) rotateX(15deg) scale(0.75) translateX(-15em);
+	opacity: 0;
+}
+section:hover {
+	transform: rotate(0) scale(1.5) translate(0);
+	filter:blur(0);
+	opacity: 100;
+}
+h1 {
+	font-size: 4em;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	line-height: 0.85;
+	font-weight: 400;
+	word-spacing: 100vh;
+}
+h2 {
+	color: limegreen;
+	display: inline;
+	font-weight: 400;
+	text-transform: uppercase;
+
+}
+h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.25em;
+	color: red;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+p { transform: rotateY(45deg) rotateX(15deg) scale(0.75) translateX(-15em);
+	opacity: 0;
+	margin: 0 0 1em 0;
+}
+
+
+h1:hover {color: red;
+	text-transform:font;
+	font-family: helvetica;
+}
+
+
+h2:hover {filter: invert(1);
+transform:);
+}
+
+.toggle p {
+	opacity: 0;
+	height:0;
+	overflow: hidden;
+	transition: all 0.5s;
+	transform: translateX(-5em);
+	}
+.show p{ opacity: 1;
+	height: auto;
+	transform: translateX(0); }
+
+.toggle h3 {cursor: pointer;
+opacity: 0.7;
+transition: all 0.5s;
+transform: translateY(0);}
+
+.show h3 {}
+
